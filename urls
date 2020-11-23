@@ -1,0 +1,4 @@
+Dialog token                http://localhost/SMPP_API/public/dialogtokenSMS?mobile=077123456&msg=test is my
+Dialog token to get token   http://localhost/SMPP_API/public/dialog
+Dialog CP Solution          http://localhost/SMPP_API/public/dialogcpSMS?mobile=077123456&msg=test is my
+Etisalat/Hutch              http://localhost/SMPP_API/public/etisalatSMS?mobile=077123456&msg=test is my
