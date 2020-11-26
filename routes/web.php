@@ -25,14 +25,14 @@ $router->group(['prefix' => 'dialog'], function () use ($router) {
         $router->get('',['uses'=>'DialogToken@GenerateToken']);
 });
 
-$router->group(['prefix' => 'dialogtokenSMS'], function () use ($router) {
+$router->group(['prefix' => 'dialogtokensms'], function () use ($router) {
     $router->get('',['uses'=>'DialogToken@SendSMS']);
 });
 
-$router->group(['prefix' => 'dialogcpSMS'], function () use ($router) {
+$router->group(['prefix' => 'dialogcpsms'], function () use ($router) {
     $router->get('',['uses'=>'DialogCP@SendSMS']);
 });
 
-$router->group(['prefix' => 'etisalatSMS'], function () use ($router) {
+$router->group(['prefix' => 'etisalatsms'], function () use ($router) {
     $router->get('',['uses'=>'Etisalat@SendSMS']);
 });
